@@ -8,10 +8,15 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
     height: 80px;
     color: white;
 }
 
+a {
+    color: white;
+}
 nav, footer {
     background-color: #1f1f1f;
 }
