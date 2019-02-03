@@ -63,7 +63,7 @@ li {
 }
 
 .project-image-holder img {
-    display: block;
+    display: inline-block;
     margin: 10px 0;
     max-width: 100%;
     box-shadow: 2px 3px 0 0 #c8c8c8;
