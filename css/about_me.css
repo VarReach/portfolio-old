@@ -1,0 +1,56 @@
+header {
+    padding: 55px 33px 0;
+}
+
+main section {
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+.home-link {
+    margin-left: 25px;
+}
+
+h2 {
+    color: #171717;
+}
+
+@media only screen and (min-width: 900px) {
+    main section {
+        padding-left: 55px;
+        max-width: 800px;
+    }
+
+    .home-link {
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        padding-left: 80px;
+    }
+
+    main section {
+        padding-left: 55px;
+    }
+
+    .home-link {
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* fixes some issues with header text going to another line on smaller screens */
+    header {
+        padding: 10px;
+    }
+}

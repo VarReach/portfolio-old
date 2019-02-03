@@ -1,0 +1,169 @@
+/* header */
+
+header {
+    padding-top: 55px
+}
+
+h2 {
+    margin-top: 30px;
+    color: #171717;
+}
+
+header div {
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+/* 'article' */
+
+section {
+    padding: 0 5px;
+}
+
+h5 {
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+section hr {
+    margin: 30px -5px;
+}
+
+.github-project-links {
+    margin-right: 10px;
+    color: #636363;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: none;
+}
+
+.github-project-links:hover {
+    color: #636363;
+    border-bottom: 2px solid #636363;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.project-image-holder {
+    margin: 30px 0;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+.project-image-holder img {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+    box-shadow: 2px 3px 0 0 #c8c8c8;
+}
+
+.skill-logo {
+    margin-right: 5px;
+}
+
+main .menu-sub-link, .tag-link {
+    color: #636363;
+    font-weight: 600;
+}
+
+main .menu-sub-link:hover, .tag-link:hover {
+    color: #636363;
+    border-bottom: 1px solid #636363;
+}
+
+/* .project-images p {
+    padding-left: 5px;
+} */
+
+.home-link {
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 400px) {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* 
++----------------------------+
+        Desktop View
++----------------------------+ 
+*/
+
+@media only screen and (min-width: 900px) {
+    header {
+        padding-left: 33px;
+        margin-bottom: 40px;
+    }
+
+    header hr {
+        margin-left: -33px;
+    }
+
+    header div, h5, p {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    h2 {
+        margin-left: 20px;
+    }
+
+    main>section {
+        padding: 0 33px 0;
+    }
+
+    section.project-images p {
+        font-size: 16px;
+        margin-left: 100px;
+        width: 300px;
+        margin: 30px 75px;
+    }
+
+    section hr {
+        margin: 30px -5px;
+    }
+
+    .project-image-holder {
+        padding: 30px;
+        margin: 30px 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    main>section {
+        padding: 0 33px 0;
+    }
+
+    section.project-images p {
+        font-size: 18px;
+        margin-left: 100px;
+        width: 600px;
+        margin: 70px 150px;
+    }
+
+    section hr {
+        margin: 75px -5px;
+    }
+
+    .project-image-holder {
+        padding: 50px;
+        margin: 30px 100px;
+    }
+}
