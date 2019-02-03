@@ -41,6 +41,11 @@ function handleProjectHover() {
         applyHoverCssChanges(event.currentTarget);
     });
 
+    $('.js-project-hover').click(event => {
+        $('body').css('background-color', '#171717');
+        removeHoverCssChanges(event.currentTarget);
+    });
+
     $('.js-project-hover').mouseleave(event => {
         $('body').css('background-color', '#ebebeb');
         removeHoverCssChanges(event.currentTarget);
