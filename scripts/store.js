@@ -55,11 +55,11 @@ const store = (function() {
                             alt: 'Immediate response to your answer view',
                         }
                     ],
-                    tag: 'Answering a question is easy! A client just needs to click on the appropriate response, then click on the submit button. The quiz provides immediate feedback on your answer along with a bit of trivia. <br/><br/> Behind the scenes, the state is updated and the dom then rendered based on your score, current question and whether you are to be answering or receiving feedback on a question.'
+                    tag: 'Answering a question is easy! A client just needs to click on the appropriate response, then click on the submit button. The quiz provides immediate feedback on your answer along with a bit of trivia. <br/><br/> Behind the scenes the state is updated and the dom then rendered based on your score, current question and whether you are to be answering or receiving feedback on a question.'
                 },
                 { 
                     attr: { url: 'quiz_app/4.png', alt: 'Final view of the quiz app, shows your score' },
-                    tag: 'The final view of the quiz. Scores your score out of ten, along with an image of a medal based on your performance. If you did poorly, you can always try again!'
+                    tag: 'The final view of the quiz. Shows your score out of ten, along with an image of a medal based on your performance. If you did poorly, you can always try again!'
                 },
             ]
         }
