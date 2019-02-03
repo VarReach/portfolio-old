@@ -72,7 +72,13 @@ const def = (function() {
         $('main').fadeIn(250);
     }
 
+    function forceBodyBg() {
+        //fix for some mobile devices not updating correctly on 'back'.
+        $('body').css('background-color', '#ebebeb');
+    }
+
     function main() {
+        forceBodyBg();
         handleMainMenuToggle();
         handleEmailLink();
     }
